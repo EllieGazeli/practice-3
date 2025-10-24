@@ -1,0 +1,166 @@
+//zad4
+// {
+//	int num;
+//	int factorial = 1;
+//	std::cin >> num;
+//	for (num; num > 0;) {
+//		factorial *= num;
+//		num -= 1;
+//	}
+//	std::cout << factorial;
+//}
+
+//zad3
+// {
+//	int number;
+//	std::cin >> number;
+//	int number2;
+//	number2 = number * number;
+//	while (number2 > 0) {
+//		int newNum = number2 % 10;
+//		if (newNum != 0) {
+//			std::cout << newNum;
+//		}
+//		number2 = number2 / 10;
+//	}
+//}
+
+
+//zad 2
+// {
+//	int num;
+//	std::cin >> num;
+//	for (int x = 1; x < num; x++) {
+//		std::cout << "x = " << x << " ";
+//		int y = num - x;
+//		std::cout << "y = " << y << std::endl;
+//	}
+//
+//}
+
+
+//zad1
+// {
+//	int number;
+//	std::cin >> number;
+//	int row;
+//
+//	for (row = 1; row <= number; row++) {
+//		int i = 1;
+//		std::cout << std::endl;
+//		for (i; i <= row ; i++)
+//			std::cout << i;
+//	}
+	
+	
+
+
+
+
+
+
+	//zad 7
+	// char letter;
+	//std::cin >> letter;
+	//if (letter >= 'A' && letter <= 'Z') {
+	//
+	//	int DIFFERENCE = 'a' - 'A';
+	//	std::cout << char(letter + DIFFERENCE);
+	//}
+	//else if (letter >= 'a' && letter <= 'z') {
+	//	int DIFFERENCE = 'A' - 'a';
+	//	std::cout << char(letter + DIFFERENCE);
+	//}
+	//else {
+	//	std::cout << "Invalid character.";
+
+	//zad 6
+	// int a;
+	//int b;
+	//int c;
+	//std::cin >> a;
+	//std::cin >> b;
+	//std::cin >> c;
+	//
+	//int discr = b*b - 4*a*c;
+	//
+	//double x1 = -b + sqrt(discr) / 2 * a;
+	//double x2 = -b - sqrt(discr) / 2 * a;
+
+	//std::cout << x1; 
+	//std::cout << "\n";
+	//std::cout << x2;
+
+
+
+	//ZAD 5
+	// int side1;
+	//int side2;
+	//int side3;
+	//std::cin >> side1;
+	//std::cin >> side2;
+	//std::cin >> side3;
+
+	//if (side1 + side2 < side3 && side2+side3 < side1 && side1+side3 < side2) {
+	//    std::cout << "THe triangle doesn't exist.";
+	//}
+	//else {
+	//    std::cout << "The triangle exists!!!!";
+	//}
+	//     
+
+	//zad 4
+	// int percent;
+	//std::cout << "Result: ";
+	//std::cin >> percent;
+	//if (percent >= 90) {
+	//    std::cout << "Grade: 6+";
+	//}
+	//else if (percent >= 80) {
+	//    std::cout << "Grade: 6";
+	//}
+	//else if (percent >= 70) {
+	//    std::cout << "Grade: 5";
+	//}
+	//else if (percent >= 60) {
+	//    std::cout << "Grade: 4";
+	//}
+	//else if (percent >= 40) {
+	//    std::cout << "Grade: 3";
+	//}
+	//else if (percent < 40) {
+	//    std::cout << " Grade: 2";
+	//}
+	//zad 3
+	// int num1;
+	//int num2;
+	//int result;
+	//std::cin >> num1;
+	//std::cin >> num2;
+
+	//std::cout << (num1 - num2 > 0 ? num1 : num2);
+
+
+
+
+	//zad 2
+	// char letter;
+	//std::cin >> letter;
+	//if (letter >= 65 && letter <= 122) {
+	//    std::cout << "the input is a letter";
+	//}
+	//else {
+	//    std::cout << "Unknown character.";
+	//}
+	//    if (letter == 65 || letter == 97 || letter == 68 || letter == 101 || letter == 73 || letter == 105 || letter == 79 || letter == 111 || letter == 85 || letter == 117) {
+	//        std::cout << "\n Yes, the letter is a vowel";
+	//}
+
+
+	//ZAD1  
+	// int year;
+	//std::cin >> year;
+	//if (year % 4 == 0) 
+	//{
+	//    std::cout << "True.";
+	//}

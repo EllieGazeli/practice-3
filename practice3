@@ -1,3 +1,26 @@
+// zad 8
+{
+	int number;
+	std::cin >> number;
+	for (int a = 1; a < number; ++a) {
+
+		for (int b = a; b < number; ++b)
+		{
+
+			for (int c = 1; c < number; ++c)
+			{
+
+				if (a * a + b * b == c * c) {
+					std::cout << a << " " << b << " " << c << std::endl;
+				}
+				
+			}
+		}
+	}
+}
+
+
+
 //zad4
 // {
 //	int num;

@@ -1,24 +1,30 @@
-// zad 10 NE DOVURSHENA
-{
-	int num1;
-	int num2;
-	int divisor;
-	int sumDivisors = 0;
-	std::cin >> num1;
-	std::cin >> num2;
 
-	for (int number = num1; number <= num2; ++number) 
-	{
-		for (int divisor; divisor < number; ++divisor) 
-		{
-			if (number % divisor == 0) 
-			{
-				sumDivisors += divisor
-			}
-		}
-	}
-}
 
+//zad 10!
+// {
+//         int num1;
+//         int num2;
+//         int sumDivisors = 0;
+//         std::cin >> num1;
+//         std::cin >> num2;
+//
+//         for (int number = num1; number <= num2; ++number)
+//         {
+//             for (int divisor = 1; divisor < number; ++divisor)
+//             {
+//                 if (number % divisor == 0)
+//                 {
+//                     sumDivisors += divisor;
+//                 }
+//             }
+//             if (sumDivisors == number)
+//             {
+//                 std::cout << number << std::endl;
+//             }
+//             sumDivisors = 0;
+//         }
+//
+// }
 
 // zad 8
 {
